@@ -826,7 +826,7 @@ function handler(e) {
 
     if(str.length)
         {for (const prediction of predictions)
-        list.innerHTML += `<class onclick="handleClick(this)"><b>${str}</b>${prediction.substring(str.length)}`;}
+        list.innerHTML += `<li class="list-group-item" onclick="handleClick(this)"><b>${str}</b>${prediction.substring(str.length)}</li>`}
 
 }
 
